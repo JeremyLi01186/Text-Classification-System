@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<title>文本分类系统</title>
+<link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" title="" rel="stylesheet" />
+<link title="" href="css/style.css" rel="stylesheet" type="text/css"  />
+<link title="blue" href="css/dermadefault.css" rel="stylesheet" type="text/css"/>
+<link title="green" href="css/dermagreen.css" rel="stylesheet" type="text/css" disabled="disabled"/>
+<link title="orange" href="css/dermaorange.css" rel="stylesheet" type="text/css" disabled="disabled"/>
+<link href="css/templatecss.css" rel="stylesheet" title="" type="text/css" />
+<script src="script/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="script/jquery.cookie.js" type="text/javascript"></script>
+<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<nav class="nav navbar-default navbar-mystyle navbar-fixed-top">
+  <div class="navbar-header">
+    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+     <span class="icon-bar"></span> 
+     <span class="icon-bar"></span> 
+     <span class="icon-bar"></span> 
+    </button>
+    <a class="navbar-brand mystyle-brand"><span class="glyphicon glyphicon-home"></span></a> </div>
+  <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+      <li class="li-border"><a class="mystyle-color" href="#">文本分类系统</a></li>
+    
+     
+    </ul>
+  </div>
+</nav>
+<div class="down-main">
+  <div class="left-main left-full">
+    <div class="sidebar-fold"><span class="glyphicon glyphicon-menu-hamburger"></span></div>
+    <div class="subNavBox">
+      <div class="sBox">
+       <div class="subNav sublist-down"><span class="title-icon glyphicon glyphicon-chevron-down"></span><span class="sublist-title">功能中心</span>
+        </div>
+        <ul class="navContent" style="display:block">
+          <li >
+            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />分类结果统计</div>
+            <a href="index.html"><span class="sublist-icon glyphicon glyphicon-tags"></span><span class="sub-title">分类结果统计</span></a> </li>
+          <li class="active">
+            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />文本上传</div>
+            <a href="upload.html"><span class="sublist-icon glyphicon glyphicon-file"></span><span class="sub-title">文本上传</span></a> </li>
+         
+        </ul>
+      </div>
+      <div class="sBox">
+       
+        <ul class="navContent" style="display:none">
+          <li>
+            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />添加新闻</div>
+            <a href="#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">添加新闻</span></a></li>
+          <li>
+            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />添加新闻</div>
+            <a href="#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">新闻管理</span></a></li>
+          <li>
+            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />添加新闻</div>
+            <a href="#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">添加新闻</span></a></li>
+          <li>
+            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />新闻管理</div>
+            <a href="#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">新闻管理</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="right-product my-index right-full">
+     <div class="container-fluid">
+     <div class="info-center">
+       
+       <!---title----->
+            <div class="info-title">
+            
+              <div class="time-title pull-right">
+                  <div class="year-month pull-left">
+                    <p>星期三</p>
+                    <p><span>2017</span>年5月10日</p>
+                  </div>
+                  <div class="hour-minute pull-right">
+                     <strong>23：22</strong>
+                  </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+           <!----content-list----> 
+           <div class="center-back right-back">
+        <div class="container-fluid">
+          <div class="info-center">
+                    <div class="page-header">
+                      <div class="pull-left">
+            <h4>上传文件夹</h4>      
+          </div>
+                   
+                    </div>
+
+
+
+                    <div class="clearfix">
+ <div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="">
+      <span class="input-group-btn">
+        <button class="btn btn-default " type="button">浏览...</button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  <button class="btn btn-primary" type="button" style="float: right;">提交</button>
+</div><!-- /.row -->
+
+
+                    </div>
+                      <div class="table-margin">
+                      <table class="table table-bordered table-header">
+                      <thead>
+                         <tr>
+                           <td><input type="checkbox" /></td>
+                           <td class="w70">标题</td>
+                           <td class="w15">提交时间</td>
+                           <td class="w15">大小</td>
+                         </tr>
+                         </thead>
+                         <tbody>
+                         <tr>
+                          <td><input type="checkbox" /></td>
+                          <td>C32-Agriculture0001</td>
+                          <td>2017年5月10日</td>
+                          <td>2KB</td>
+                         </tr>
+                          <tr>
+                          <td><input type="checkbox" /></td>
+                          <td>C32-Agriculture0002</td>
+                          <td>2017年5月10日</td>
+                          <td>1KB</td>
+                         </tr>
+                           <tr>
+                          <td><input type="checkbox" /></td>
+                          <td>C32-Agriculture0003</td>
+                          <td>2017年5月10日</td>
+                          <td>6KB</td>
+                         </tr>
+                           <tr>
+                          <td><input type="checkbox" /></td>
+                          <td>C32-Agriculture0004</td>
+                          <td>2017年5月10日</td>
+                          <td>2KB</td>
+                         </tr>
+                           <tr>
+                          <td><input type="checkbox" /></td>
+                          <td>C32-Agriculture0005</td>
+                          <td>2017年5月10日</td>
+                          <td>10KB</td>
+                         </tr>
+                           <tr>
+                          <td><input type="checkbox" /></td>
+                          <td>C32-Agriculture0006</td>
+                          <td>2017年5月10日</td>
+                          <td>2KB</td>
+                         </tr>
+                         </tbody>
+                         <tfoot>
+                          <tr>
+                            <td colspan="4">
+                              <div class="pull-right">
+                                  <nav>
+                                      <ul class="pagination">
+                                        <li>
+                                          <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                          </a>
+                                        </li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li>
+                                          <a href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </nav>
+                              </div>
+                            </td>
+                          </tr>
+                         </tfoot>
+                      </table>
+                    </div>
+                    </div>
+          </div>
+        </div>
+      </ui-layout>
+   </div>
+  </section>   
+ </div>
+</div>
+              
